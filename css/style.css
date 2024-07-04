@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/image.new.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+  }
+  
+  .section__pic-container {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+  }
+
+  
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+  }
+  
+  .section__pic-contain 
+  {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+  }
+
+  .text
+  {
+    align-self: center;
+    text-align: center;
+    color: antiquewhite;
+
+  }
+
+.about
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/BACKGROUND\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* ABOUT ME */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 100px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: justify;
+    color: #333;
+    align-items: center;
+}
+
+.section__pic-contain {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.section:hover {
+    background-color: #f0f0f5;
+}
+
+.biodata h2 {
+    color: #9a1e1e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    align-items: normal;
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+strong {
+    color: #a12f2f;
+}
+
+
+.academic
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/pexels-pixabay-355770.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.table,tr,td,th
+    { 
+    border:1px solid gray;
+    border-collapse:collapse;
+    padding: 40px;
+    }
+tr
+    {
+        background-color:ivory;
+    }
+
+th
+    {
+        background-color: blanchedalmond;
+    }
+tr:nth-child(odd)
+    {
+        background-color:darksalmon;
+    }
+
+ tr:hover
+{
+ background-color: goldenrod;
+}
+
+nav 
+{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       padding: bottom 20px;
+       text-align: right;
+}
+
+a
+    {
+        text-decoration: none;
+        margin: right 25px;
+
+    }   
+
+*
+{
+    box-sizing: border-box;
+}
+
+
+.experience
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/BACKGROUND\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.experience{
+    background: transparent;
+}
+
+.experience h2 {
+    margin-bottom: 4rem;
+}
+
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.experience-container .experience-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem black;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.experience-box img{
+    width: 100%;
+}
+
+.contact
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/BACKGROUND.2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* CONTACT SECTION */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f68;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    align-content: flex-start;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    color: #666;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input, textarea {
+    width: 100%;
+    align-items: initial;
+    padding: 10px;
+    border: 1px solid #bf4c4c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}                                                                                                                                                                                                                                                                               
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.navbar
+{
+    width: 1100px;
+    height:100px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.logo
+{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 5px;
+    float: left;
+    padding-top: 15px;
+    margin-top: 10px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: antiquewhite;
+}
